@@ -11,22 +11,22 @@ Other than that, we ask you to include an acknowledgement in your work
 should you make substantial use of this software. At present,
 appropriate references are
 
-           W. Fontana and L. W. Buss 
-           'The Arrival of the Fittest': Toward a Theory of 
-	   Biological Organization 
+           W. Fontana and L. W. Buss
+           'The Arrival of the Fittest': Toward a Theory of
+	   Biological Organization
            Bull. Math. Biol., 56, 1-64 (1994)
 or
            W. Fontana and L. W. Buss
-           The barrier of objects: From dynamical systems to 
+           The barrier of objects: From dynamical systems to
 	   bounded organizations,
-           in: Boundaries and Barriers, J. Casti and A. Karlqvist (eds.), 
+           in: Boundaries and Barriers, J. Casti and A. Karlqvist (eds.),
 	   pp. 56-116, Addison-Wesley, 1996
 
 
 COMPILATION
 
 If you use the type system, you must first install caml-light 0.71.
-Caml-light is a small protable dialect of ML, courtesy Xavier Leroy
+Caml-light is a small portable dialect of ML, courtesy Xavier Leroy
 and others at INRIA, France (ftp://ftp.inria.fr). PLEASE READ THE
 COPYRIGHT NOTICE INCLUDED WIH THE DISTRIBUTION OF CAML-LIGHT.
 
@@ -105,11 +105,11 @@ you turn on a peep show :-). Alchemy will report all collisions - on
 the screen of the machine it is running on! (We don't want to clog the
 network...)
 
-If you type 
+If you type
 1 0
 you turn the peep show off.
 
-If you type 
+If you type
 0 0
 
 you pause the simulation. Alchemy enters an endless loop and watches
@@ -118,7 +118,7 @@ the control variable number 0 to 1, alchemy exits the loop and
 continues with its collisions.  Try it while having the peep show on.
 
 Turn the peep show off again. (1 0)
-With 
+With
 0 3
 
 you have alchemy display it's most important status variables.
@@ -150,7 +150,7 @@ COMMAND LINE OPTIONS
 
 Alchemy has a few command line options that can be easily expanded
 with the options.c interface to GNU's getopt.c
-If you type 
+If you type
 alchemy -h
 
 you will get info about the options:
@@ -167,8 +167,8 @@ command line settings:
  -f                    = alchemy.inp
  -p                    = 0
  -a                    = 0
- 
-hence with 
+
+hence with
 alchemy -f leo.in
 
 you change the default input file name from alchemy.inp to leo.in. The
@@ -198,7 +198,7 @@ io.h
 lambda.c	  the best, the fastest, lambda herself
 lambda.h
 lambda.test
-main.c		  main 
+main.c		  main
 makefile
 makefile.bak
 options.c	  my interface to GNU's option parser
